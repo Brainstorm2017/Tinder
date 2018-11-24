@@ -38,6 +38,7 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="8Sh-lD-eRQ" appends="YES" id="GZU-DX-O2y"/>
+                                    <outletCollection property="gestureRecognizers" destination="TLN-Jq-eYp" appends="YES" id="EWl-Bb-p3q"/>
                                 </connections>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="action_buttons" translatesAutoresizingMaskIntoConstraints="NO" id="4GO-LU-CHy">
@@ -64,6 +65,7 @@
                         <action selector="Swipecontrol:" destination="MWQ-3R-zkj" id="OdD-nF-3WE"/>
                     </connections>
                 </panGestureRecognizer>
+                <tapGestureRecognizer id="TLN-Jq-eYp"/>
             </objects>
             <point key="canvasLocation" x="1096.8" y="62.518740629685162"/>
         </scene>
