@@ -16,5 +16,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func Swipecontrol(_ sender: UIPanGestureRecognizer) {
+    }
 }
 
