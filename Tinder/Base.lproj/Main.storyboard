@@ -44,7 +44,6 @@
                         <viewLayoutGuide key="safeArea" id="xYr-ZZ-Keq"/>
                     </view>
                     <connections>
-                        <outlet property="PanGesture" destination="8Sh-lD-eRQ" id="gJ9-Mz-6O0"/>
                         <outlet property="cardImageView" destination="Ahv-3A-k4D" id="nll-ft-Eqh"/>
                         <outlet property="trayView" destination="Y5h-ob-3Rl" id="1oD-uz-4dO"/>
                         <segue destination="8EK-oi-QM9" kind="presentation" id="wdQ-Nh-76G"/>
